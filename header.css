@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  color: #2600ff;
+  text-align: center;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px;
+}
+
+.card {
+  border: solid 1px grey;
+  margin-bottom: 30px;
+  margin-right: 24px;
+  display: block;
+}
+
+.card .item {
+  height: 150px;
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+}
+
+.card p {
+  text-align: center;
+  border: solid 1px grey;
+}
+/*# sourceMappingURL=header.css.map */
